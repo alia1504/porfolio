@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 153, 134);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+    background-color: rgb(100, 191, 173);
+}
+.logo-name{
+    font-size: 25px;
+    background-color:  rgb(8, 85, 86);
+    color: white;
+    padding:15px;
+    border-radius: 5px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.nav-links li{
+    margin-left: 10px;
+}
+.nav-links li a{
+    color: black;
+    text-decoration:none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.nav-links li a:hover{
+    background-color:rgb(8, 85, 86);
+    color: white;
+}
+.Contact{
+    height: 200px;
+    width: 390px;
+    background-color: white;
+    padding: 15px;
+    top:130px;
+    left: 30px;
+    position:absolute;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.Contact p{
+    font-size: 1.6em;
+}
